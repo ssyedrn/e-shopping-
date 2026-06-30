@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickCart - Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">QuickCart</h1>
+    <nav class="nav-buttons">
+      <button id="shop-btn" class="nav-btn active">Shop</button>
+      <button id="cart-btn" class="nav-btn">Cart <span id="cart-count">0</span></button>
+      <button id="orders-btn" class="nav-btn">My Orders</button>
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Shop Page -->
+  <main id="shop-page" class="page active">
+    <h2 class="page-title">Available Products</h2>
+    <div class="product-grid" id="product-grid">
+      <!-- products injected by JS -->
+    </div>
+  </main>
+
+  <!-- Cart Page -->
+  <main id="cart-page" class="page">
+    <h2 class="page-title">Your Cart</h2>
+    <div id="cart-items" class="cart-list"></div>
+    <div class="cart-summary">
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="checkout-btn" class="primary-btn">Checkout</button>
+    </div>
+  </main>
+
+  <!-- Orders Page -->
+  <main id="orders-page" class="page">
+    <h2 class="page-title">My Orders</h2>
+    <div id="orders-list" class="orders-list"></div>
+  </main>
+
+  <footer>
+    <p>QuickCart Demo &mdash; Images via Wikimedia Commons</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
