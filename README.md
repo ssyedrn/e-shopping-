@@ -1,27 +1,36 @@
-# OOP in Python
+QuickCart - Shopping Cart Website
 
-A collection of Python programs built around real-world scenarios to practice Object-Oriented Programming. Covers classes, inheritance, encapsulation, abstraction, and polymorphism.
+A simple shopping cart website built with vanilla HTML, CSS, and JavaScript. Includes product browsing, cart management, checkout, and order returns, along with a dark/light mode toggle.
 
-## Programs
+Features
 
-| File | Description |
-|------|-------------|
-| bank_system.py | Banking system with deposits, withdrawals, and account types |
-| library_management.py | Library where members can borrow and return books |
-| employee_payroll.py | Employee records with bonus calculation based on employment type |
-| game_character.py | Game characters with different attack styles |
-| food_delivery.py | Food ordering system with item management and billing |
-| hospital_management.py | Hospital system with doctor-patient appointment scheduling |
-| parking_lot.py | Parking lot with slot tracking and fee calculation |
-| school_management.py | School system with student enrollment and teacher management |
 
-## Concepts Covered
+Browse products with images, prices, and stock status
+Add to cart with quantity controls
+Stock validation (cannot add more than available stock)
+Checkout to place an order
+View past orders and return them
+Dark mode / light mode toggle
+Page navigation between Shop, Cart, and My Orders
+Smooth hover and fade animations 
 
-- Classes and Objects
-- Inheritance
-- Encapsulation
-- Abstraction
-- Polymorphism
-- Properties and Setters
-- Static Methods and Class Methods
-- Dunder Methods (`__str__`, `__len__`)
+
+
+
+
+
+
+Concepts Covered
+
+
+DOM manipulation
+Event listeners
+Conditional logic (if-else) for stock checks, cart updates, and order returns
+CSS variables for theme switching
+CSS transitions and animations
+Array methods (map, filter, reduce, find)
+
+
+Image Credits
+
+Product images sourced from Wikimedia Commons under their respective free licenses.
